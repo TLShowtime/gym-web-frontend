@@ -1,0 +1,24 @@
+.form-container {
+    background-color: #C8E1D8;
+    width:100%;
+    height:100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    object-fit:contain;
+}
+
+.name_tag {
+    position: absolute;
+    width: 314px;
+    height: 42px;
+    left: 49px;
+    top: 192px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+}
