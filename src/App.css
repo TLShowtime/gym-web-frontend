@@ -5,7 +5,12 @@
   font-family: 'PT Sans', sans-serif;
 }
 
-.home,
+.home{
+  min-width: 100%;
+  min-height: 100%;
+}
+
+
 .services,
 .products,
 .menu-container,

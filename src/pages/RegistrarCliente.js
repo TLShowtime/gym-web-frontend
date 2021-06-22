@@ -1,9 +1,10 @@
 import React from 'react';
+import ClienteForm from '../components/ClienteForm';
 
 function RegistrarCliente() {
     return (
         <div>
-            <h1>RegistrarCliente Page</h1>
+            <ClienteForm />
         </div>
     )
 }
