@@ -1,9 +1,12 @@
 import React from 'react';
+import '../App.css';
+import HomeSection from '../components/HomeSection';
 
 function Home() {
     return (
         <div>
-            <h1>Home Page</h1>
+            <HomeSection />
+            <a href='https://www.freepik.com/photos/man'>Man photo created by serhii_bobyk - www.freepik.com</a>
         </div>
     )
 }
