@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css';
 
+
 function Menu() {
   return <h1 className='menu-container'>Músculos a la Tica</h1>;;
 }
