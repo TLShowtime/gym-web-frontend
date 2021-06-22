@@ -1,9 +1,10 @@
 import React from 'react'
+import ReservationList from '../components/ReservationList'
 
 function Reservaciones() {
     return (
         <div>
-            <h1>Reservaciones Page</h1>
+            <ReservationList />
         </div>
     )
 }

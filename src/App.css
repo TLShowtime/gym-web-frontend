@@ -8,10 +8,20 @@
 .home,
 .services,
 .products,
+.menu-container,
 .sign-up {
   display: flex;
   height: 40vh;
   align-items: center;
   justify-content: center;
   font-size: 3rem;
+}
+
+.menu-container {
+  background-image: url('./imagen1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
 }
