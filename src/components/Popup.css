@@ -1,0 +1,32 @@
+.popup {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+    backdrop-filter: blur(2px);
+
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.popup-inner {
+    position:relative;
+    padding:32px;
+    width:100%;
+    max-width:640px;
+    background-color:#3E5056;
+}
+
+.popup-inner .close-btn {
+    position:absolute;
+    top:16px;
+    right:16px;
+}
+
+.popup-inner > h3 {
+    justify-content: center;
+    object-position: center;
+    color: white;
+}
