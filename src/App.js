@@ -21,7 +21,7 @@ function App() {
             <Route path='/registrar-instructor' component={RegistrarInstructor}/>
             <Route path='/servicios' component={Servicios}/>
             <Route path='/reservaciones' component={Reservaciones}/>
-            <Route path='/Calendario' component={Calendario}/>
+            <Route path='/calendario' component={Calendario}/>
           </Switch>
       </Router>
     </>

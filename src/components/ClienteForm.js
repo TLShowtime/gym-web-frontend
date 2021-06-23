@@ -2,6 +2,7 @@ import React,{useState} from 'react';
 import './ClienteForm.css';
 import {Button,ButtonCancel} from './Button';
 import Popup from './Popup';
+import './Button.css';
 
 function ClienteForm() {
 

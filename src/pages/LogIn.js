@@ -18,7 +18,7 @@ function LogIn() {
               Log In
         </Link>
         </button>
-        <button className='btn-login cancelbtn' type="button"> Resgistrarse</button>
+        <button className='btn-login cancelbtn' type="button"> Registrarse</button>
       </div>
     </>
   )
